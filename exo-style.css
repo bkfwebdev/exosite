@@ -18,3 +18,23 @@
 #bigquestion {
     font-family:Roboto !important;
 }
+
+#maincontent4 {
+    background-color: black;
+    height:50%;
+}
+
+#sibebar0 {
+    background-color: white;
+    height:50%
+}
+
+#sidebar1 {
+    background-color: red;
+    height:25%
+}
+
+#maincontent3 {
+    height:40%
+}
+
