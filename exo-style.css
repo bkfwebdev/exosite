@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .navbar ul li:hover {
     outline-style: solid;
     outline-width:1px;
@@ -13,7 +17,8 @@
 .jumbotron {
     
     color:white !important;
-    background-image: url("Hero_Background.png");
+    margin-left: 0% !important;
+    background-image: url("Hero_Background2.png");
     background-size:100%;
     background-repeat: no-repeat;
     background-color: black
@@ -56,4 +61,38 @@
     height:90px;
     width:80px
 
+}
+
+ul li {
+    alignment:left;
+    style:none;
+    display:inline-block;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style:none;
+    padding-left:0
+}
+
+ul li input {
+border-left-style: none;
+    border-right-style: none;
+    border-top-style:none;
+    color:white;
+    background-color:black
+}
+
+textarea {
+    padding-left: 35px;
+    margin-left: 30px;
+    color:white;
+    background-color:black
+}
+
+form {
+    color:white;
+    background-color: black
+}
+
+#customerinquiry {
+    margin-left:30px;
 }
