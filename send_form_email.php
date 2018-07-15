@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "you@yourdomain.com";
-    $email_subject = "Your email subject line";
+    $email_to = "service@exotg.com";
+    $email_subject = "Exo service inquiry";
  
     function died($error) {
         // your error code can go here
@@ -17,7 +17,6 @@ if(isset($_POST['email'])) {
  
     // validation expected data exists
     if(!isset($_POST['first_name']) ||
-     
         !isset($_POST['email']) ||
         !isset($_POST['telephone']) ||
         !isset($_POST['comments'])) {
@@ -66,7 +65,6 @@ if(isset($_POST['email'])) {
      
  
     $email_message .= "First Name: ".clean_string($first_name)."\n";
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
@@ -80,7 +78,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+<p> Thank you for contacting us. We will be in touch with you very soon. </p>
  
 <?php
  

@@ -75,11 +75,11 @@
   <div class="row">
     <div id="maincontent4" class = "col-lg-8">
       <div id="customerinquiry">
-      <form>
+      <form name="contactform" method="post" action="send_form_email.php">
           <h2>Contact us now!</h2>
           <ul>
-          <li><input type="text" name="Name" placeholder="NAME"></li>
-          <li><input type="text" name="PhoneNumber" placeholder="PHONE"></li>
+          <li><input type="text" name="first_name" placeholder="First Name"></li>
+          <li><input type="text" name="telephone" placeholder="PHONE"></li>
           <li><input type="text" name="email" placeholder="EMAIL"></li>
           </ul>
           <textarea name="message" rows="20" cols="72" placeholder="MESSAGE"></textarea><br>
